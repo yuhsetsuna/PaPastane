@@ -1,0 +1,37 @@
+body{
+    background-color: #003C43;
+    margin: 0%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #77B0AA;
+    border-bottom: 3px solid #E3FEF7;
+    text-align: center;
+    margin: 0%;
+}
+h2{
+    display: flex;
+    color: #E3FEF7;
+    margin-left: 1%;
+}
+div{
+    display:contents;
+   padding: 0%;
+}
+.home{
+    align-items: center;
+    text-decoration: none;
+    color: #135D66;
+    font-weight: bolder;
+    border: 3px solid #E3FEF7;
+    border-radius: 15%;
+    background-color: #E3FEF7;
+    padding: 1%;
+    margin-right: 3%;  
+}
+.home:hover{
+    color: #E3FEF7;
+    background-color: #135D66 ;
+}

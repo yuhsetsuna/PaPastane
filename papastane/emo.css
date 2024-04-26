@@ -8,6 +8,11 @@
 ::-webkit-scrollbar-thumb:hover{
     background-color: azure;
 }
+@font-face {
+    font-family: 'Cookie Monster';
+    src: url(Cookiemonster-gv11.ttf)
+    format('truetype');
+}
 h2{
     display: flex;
     justify-content: center;
@@ -98,7 +103,7 @@ h2{
     
 }
 .inside{
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Cookie Monster', cursive;
     width: 220px;
     height: 220px;
     background-color: #FFE6E6;
@@ -111,12 +116,19 @@ h2{
     transform: scale(1.05);
     border: 5px solid #AD88C6;
 }
-.pasta-desc, .cake-desc{
-    font-size: 20px;
+.pasta-desc{
+    font-size: 23px;
     margin: 0;
     position: absolute;
     top: 120px;
-    left: 20px;
+    left: 28px;
+}
+.cake-desc{
+    font-size: 23px;
+    margin: 0;
+    position: absolute;
+    top: 120px;
+    left: 38px;
 }
 #inside-pasta, #inside-cupcake, #inside-cake{
     width: 90px;
@@ -133,16 +145,16 @@ h2{
     width: 30px;
 }
 .cupcake-desc{
-    font-size: 20px;
+    font-size: 28px;
     margin: 0;
     position: absolute;
     top: 120px;
-    left: 25px;
+    left: 50px;
 }
 .cupcake-link{
     position: absolute;
     top: 160px;
-    left: 60px;
+    left: 65px;
     color: #212529;
 }
 .cupcake-link:hover, .cake-link:hover{
@@ -151,7 +163,7 @@ h2{
 .cake-link{
     position: absolute;
     top: 160px;
-    left: 55px;
+    left: 57px;
     color: #212529;
 }
 .footer p a{
@@ -160,4 +172,10 @@ h2{
 }
 .footer p a:hover{
     color: rgb(173, 120, 21);
+}
+#back{
+    z-index: -9999;
+    position: absolute;
+    margin-top: 23.42px;
+    margin-left: 47.195px;
 }

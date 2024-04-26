@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: 'Cookie Monster';
-    src: url(Cookiemonster-gv11.ttf)
+    src: url(../Cookiemonster-gv11.ttf)
     format('truetype');
 }
 .inside{
